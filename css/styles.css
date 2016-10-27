@@ -1,7 +1,11 @@
+body {
+  background-color: white;
+}
+
 header {
   height: 15%;
   min-height: 160px;
-  background-color: #555;
+  background-color: #190933;
   text-align: center;
   -webkit-box-shadow: 0 10px 19px 0 rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0 10px 19px 0 rgba(50, 50, 50, 0.75);
@@ -15,27 +19,36 @@ header img {
 .links {
   text-align: center;
   margin-top: 4%;
+  white-space: nowrap;
 }
 
 .gridrow {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .links h3 {
-  font-size: 110%;
-  background-color: #888;
-  margin-bottom: 4px;
-  margin-left: 2px;
-  margin-right: 2px;
+  font-size: 140%;
+  background-color: #190933;
+  color: white;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-weight: 300;
 }
 
 .links a {
   padding-top: 10px;
   padding-bottom: 10px;
   display: block;
-  transition: background-color 0.2s;
+  transition: all 0.3s;
+  color: #F7ECE1;
+  text-decoration: none;
+  -webkit-box-shadow: 0 10px 19px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0 10px 19px 0 rgba(50, 50, 50, 0.75);
+  box-shadow:         0 10px 19px 0 rgba(50, 50, 50, 0.75);
 }
 
 .links a:hover {
-  background-color: #777;
+  background-color: #2b0f57;
+  color: white;
 }
