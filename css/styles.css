@@ -14,9 +14,28 @@ header img {
 
 .links {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 4%;
 }
 
 .gridrow {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+.links h3 {
+  font-size: 110%;
+  background-color: #888;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.links a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  transition: background-color 0.2s;
+}
+
+.links a:hover {
+  background-color: #777;
 }
