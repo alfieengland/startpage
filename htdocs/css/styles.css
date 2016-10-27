@@ -1,0 +1,22 @@
+header {
+  height: 15%;
+  min-height: 160px;
+  background-color: #555;
+  text-align: center;
+  -webkit-box-shadow: 0 10px 19px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0 10px 19px 0 rgba(50, 50, 50, 0.75);
+  box-shadow:         0 10px 19px 0 rgba(50, 50, 50, 0.75);
+}
+
+header img {
+  height: 100%;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gridrow {
+  margin-bottom: 20px;
+}
