@@ -54,10 +54,7 @@ header img {
 }
 
 .timetable {
-  margin-left: 4px;
-  margin-right: 4px;
-  margin-top: 24px;
-  margin-bottom: 4px;
+  margin: 24px 4px 4px 4px;
 }
 
 .timetable p {
