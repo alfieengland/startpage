@@ -18,7 +18,7 @@ header img {
 
 .links {
   text-align: center;
-  margin-top: 4%;
+  margin-top: 24px;
   white-space: nowrap;
 }
 
@@ -52,3 +52,31 @@ header img {
   background-color: #2b0f57;
   color: white;
 }
+
+.timetable {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.timetable p {
+  margin-left: 2px;
+  font-size: 94%;
+}
+
+.timetable {
+  outline: 1px solid black;
+}
+
+.timetrow {
+  box-shadow: 0 1px 0 #000;
+}
+
+.timetcol {
+  box-shadow: 1px 0 0 #000;
+}
+
+/*.timetable p {
+  margin-top: 2px;
+}*/
