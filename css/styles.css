@@ -2,23 +2,47 @@ body {
   background-color: white;
 }
 
+/* Header */
 header {
-  height: 15%;
-  min-height: 160px;
+  height: 14%;
   background-color: #190933;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.links a,
+header,
+.timetable {
   -webkit-box-shadow: 0 10px 19px 0 rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0 10px 19px 0 rgba(50, 50, 50, 0.75);
   box-shadow:         0 10px 19px 0 rgba(50, 50, 50, 0.75);
 }
 
-header img {
-  height: 100%;
+.banner {
+	height: 100vh;
+	overflow: hidden;
+	position: absolute;
 }
 
+.bannertext {
+	position: relative;
+	height: 100%;
+	text-align: center;
+	color: white;
+}
+
+.alfieengland {
+  position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+  height: 50%;
+}
+
+/* Links Grid */
 .links {
   text-align: center;
-  margin-top: 24px;
+  margin-top: 1%;
   white-space: nowrap;
 }
 
@@ -37,15 +61,12 @@ header img {
 }
 
 .links a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   display: block;
   transition: all 0.3s;
   color: #F7ECE1;
   text-decoration: none;
-  -webkit-box-shadow: 0 10px 19px 0 rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0 10px 19px 0 rgba(50, 50, 50, 0.75);
-  box-shadow:         0 10px 19px 0 rgba(50, 50, 50, 0.75);
 }
 
 .links a:hover {
@@ -53,27 +74,38 @@ header img {
   color: white;
 }
 
+/* Timetable */
 .timetable {
-  margin: 24px 4px 4px 4px;
+  text-align: left;
+  font-size: 14px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: calc(100% - 8px);
+  color: white;
+  margin-bottom: 4px;
 }
 
-.timetable p {
-  margin-left: 2px;
-  font-size: 94%;
+.timetable th {
+  font-weight: normal;
+  padding: 6px 5px;
+  overflow: hidden;
+  word-break: normal;
 }
 
-.timetable {
-  outline: 1px solid black;
+.timetable td {
+  padding: 6px 5px;
+  overflow: hidden;
+  word-break: normal;
+  border-width: 1px;
+  border-style: groove;
 }
 
-.timetrow {
-  box-shadow: 0 1px 0 #000;
+.row1, .row3, .row5 {
+  background-color: #190933;
 }
 
-.timetcol {
-  box-shadow: 1px 0 0 #000;
+.row2, .row4 {
+  background-color: #15082b;
 }
-
-/*.timetable p {
-  margin-top: 2px;
-}*/
