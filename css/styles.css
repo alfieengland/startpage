@@ -4,15 +4,16 @@ body {
 
 /* Header */
 header {
-  height: 14%;
+  min-height: 150px;
+  height: 18%;
   background-color: #190933;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.links a,
 header,
+.links a,
 .timetable {
   -webkit-box-shadow: 0 10px 19px 0 rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0 10px 19px 0 rgba(50, 50, 50, 0.75);
@@ -36,13 +37,13 @@ header,
   position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-  height: 50%;
+  height: 40%;
 }
 
 /* Links Grid */
 .links {
   text-align: center;
-  margin-top: 1%;
+  margin-top: 2vh;
   white-space: nowrap;
 }
 
@@ -61,8 +62,8 @@ header,
 }
 
 .links a {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 0.9vh;
+  padding-bottom: 0.9vh;
   display: block;
   transition: all 0.3s;
   color: #F7ECE1;
@@ -76,6 +77,7 @@ header,
 
 /* Timetable */
 .timetable {
+  margin-top: 2vh;
   text-align: left;
   font-size: 14px;
   border-collapse: collapse;
@@ -84,7 +86,6 @@ header,
   margin-right: 4px;
   width: calc(100% - 8px);
   color: white;
-  margin-bottom: 4px;
 }
 
 .timetable th {
