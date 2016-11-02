@@ -43,8 +43,10 @@ header,
 /* Links Grid */
 .links {
   text-align: center;
-  margin-top: 2vh;
+  margin-top: 24px;
   white-space: nowrap;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .gridrow {
@@ -52,7 +54,7 @@ header,
 }
 
 .links h3 {
-  font-size: 140%;
+  font-size: 130%;
   background-color: #190933;
   color: white;
   margin-bottom: 2px;
@@ -62,8 +64,8 @@ header,
 }
 
 .links a {
-  padding-top: 0.9vh;
-  padding-bottom: 0.9vh;
+  padding-top: 1.2vh;
+  padding-bottom: 1.2vh;
   display: block;
   transition: all 0.3s;
   color: #F7ECE1;
@@ -82,9 +84,10 @@ header,
   font-size: 14px;
   border-collapse: collapse;
   border-spacing: 0;
-  margin-left: 4px;
-  margin-right: 4px;
-  width: calc(100% - 8px);
+  border: 1px solid #190933;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: calc(100% - 48px);
   color: white;
 }
 
