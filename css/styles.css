@@ -12,13 +12,6 @@ header {
   overflow: hidden;
 }
 
-header,
-.links a,
-.timetable {
-  -webkit-box-shadow: 0 10px 19px 0 rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0 10px 19px 0 rgba(50, 50, 50, 0.75);
-  box-shadow:         0 10px 19px 0 rgba(50, 50, 50, 0.75);
-}
 
 .banner {
 	height: 100vh;
@@ -47,10 +40,6 @@ header,
   white-space: nowrap;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.gridrow {
-  margin-bottom: 8px;
 }
 
 .links h3 {
