@@ -1,7 +1,3 @@
-body {
-  background-color: white;
-}
-
 /* Header */
 header {
   min-height: 150px;
@@ -30,7 +26,7 @@ header {
   position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-  height: 40%;
+  max-width: 80vw;
 }
 
 /* Links Grid */
@@ -44,25 +40,27 @@ header {
 
 .links h3 {
   font-size: 130%;
-  background-color: #190933;
-  color: white;
-  margin-bottom: 2px;
+  background-color: white;
+  color: #190933;
+  margin-bottom: 8px;
   margin-left: 4px;
   margin-right: 4px;
   font-weight: 300;
+  outline: 2px solid #190933;
+  /* 300 font weight and 1px outline looks better but not as easy to read */
 }
 
 .links a {
-  padding-top: 1.2vh;
-  padding-bottom: 1.2vh;
+  padding-top: 1.4vh;
+  padding-bottom: 1.4vh;
   display: block;
-  transition: all 0.3s;
-  color: #F7ECE1;
+  transition: all 0.4s;
+  color: #190933;
   text-decoration: none;
 }
 
 .links a:hover {
-  background-color: #2b0f57;
+  box-shadow: inset 0 100px 0 0 #2b0f57;
   color: white;
 }
 
