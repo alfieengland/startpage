@@ -8,7 +8,6 @@ header {
   overflow: hidden;
 }
 
-
 .banner {
 	height: 100vh;
 	overflow: hidden;
@@ -46,7 +45,7 @@ header {
   margin-left: 4px;
   margin-right: 4px;
   font-weight: 300;
-  outline: 2px solid #190933;
+  outline: 1px solid #190933;
   /* 300 font weight and 1px outline looks better but not as easy to read */
 }
 
