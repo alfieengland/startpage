@@ -1,10 +1,10 @@
 # Startpage
 
-###Personal start page used as a replacement for Chrome's default "New Tab" page
+### Personal start page used as a replacement for Chrome's default "New Tab" page
 
-##External Code Used
+## External Code Used
 
-###Eric Meyer Reset
+### Eric Meyer Reset
 
 http://meyerweb.com/eric/tools/css/reset/ 
 
@@ -12,6 +12,6 @@ v2.0 | 20110126
 
 License: none (public domain)
 
-###Ungrid
+### Ungrid
 
 http://chrisnager.github.io/ungrid/
