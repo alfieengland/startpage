@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/eric-meyer-reset.css">
     <link rel="stylesheet" type="text/css" href="css/ungrid.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <script src="jquery.js"></script>
   </head>
   <body>
     <header>
@@ -33,7 +34,7 @@
           <h3><a href="https://www.amazon.co.uk/">Amazon</a></h3>
           <h3><a href="http://www.ebay.co.uk/">eBay</a></h3>
           <h3><a href="https://www.gumtree.com/">Gumtree</a></h3>
-          <h3><a href="https://fastbay.net/">The Pirate Bay</a></h3>
+          <h3><a href="https://thepirateproxy.in/">The Pirate Bay</a></h3>
           <h3><a href="https://kickass.unblocked.ist/">Kickass Torrents</a></h3>
           <h3><a href="https://www.reddit.com/r/greenday/">/r/Greenday</a></h3>
         </div>
@@ -41,7 +42,7 @@
           <h3><a href="http://www.northampton.ac.uk/">Northampton Uni</a></h3>
           <h3><a href="https://nile.northampton.ac.uk/">Nile</a></h3>
           <h3><a href="https://github.com/alfieengland">GitHub</a></h3>
-          <h3><a href="https://alfieengland.github.io/me/">Portfolio</a></h3>
+          <h3><a href="https://alfieengland.github.io/portfolio/">Portfolio</a></h3>
           <h3><a href="https://drive.google.com/">Google Drive</a></h3>
           <h3><a href="http://icy-e-bl-08-boh.sharp-stream.com/kerrang.mp3">Kerrang Radio</a></h3>
         </div>
@@ -102,5 +103,30 @@
         <td class="tg-yw4l"></td>
       </tr>
     </table>-->
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <div class="widget">
+          <script type="text/javascript">
+          $( document ).ready(function() {
+            var widget = $('.nitrous-widget');
+            var server_id = widget.data('server-id');
+            var refresh = widget.data('refresh');
+            loadWidget(server_id, widget, refresh)
+          });
+
+          function loadWidget(server_id, widget, refresh) {
+            widget.html('<iframe frameborder="0" scrolling="no" src="https://nitropanel.com/widget/api/'+server_id+'" style="height: 170px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>');
+            refresh = refresh * 1000
+            setTimeout(function() {
+              loadWidget(server_id, widget, refresh);
+            }, refresh);
+          }
+          </script>
+          <div class="nitrous-widget" data-server-id="17812861" data-theme="green" data-refresh="10"></div>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
   </body>
 </html>

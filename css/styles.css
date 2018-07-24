@@ -32,10 +32,11 @@ header {
 /* Links Grid */
 .links {
   text-align: center;
-  margin-top: 24px;
   white-space: nowrap;
+  margin-top: 24px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .links h3 {
@@ -106,4 +107,10 @@ header {
 
 .row2, .row4 {
   background-color: #15082b;
+}
+
+.widget {
+  margin-left: 9px;
+  margin-right: 9px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
