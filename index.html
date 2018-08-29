@@ -102,30 +102,5 @@
         <td class="tg-yw4l"></td>
       </tr>
     </table>-->
-    <div class="row">
-      <div class="col"></div>
-      <div class="col">
-        <div class="widget">
-          <script type="text/javascript">
-          $( document ).ready(function() {
-            var widget = $('.nitrous-widget');
-            var server_id = widget.data('server-id');
-            var refresh = widget.data('refresh');
-            loadWidget(server_id, widget, refresh)
-          });
-
-          function loadWidget(server_id, widget, refresh) {
-            widget.html('<iframe frameborder="0" scrolling="no" src="https://nitropanel.com/widget/api/'+server_id+'" style="height: 205px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>');
-            refresh = refresh * 1000
-            setTimeout(function() {
-              loadWidget(server_id, widget, refresh);
-            }, refresh);
-          }
-          </script>
-          <div class="nitrous-widget" data-server-id="17812861" data-theme="green" data-refresh="10"></div>
-        </div>
-      </div>
-      <div class="col"></div>
-    </div>
   </body>
 </html>
