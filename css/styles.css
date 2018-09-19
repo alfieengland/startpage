@@ -6,7 +6,7 @@ header {
   text-align: center;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.40);
 }
 
 .banner {
@@ -19,14 +19,13 @@ header {
 	position: relative;
 	height: 100%;
 	text-align: center;
-	color: white;
 }
 
 .alfieengland {
   position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-  max-width: 80vw;
+  max-width: 68vw;
 }
 
 /* Links Grid */
@@ -40,17 +39,15 @@ header {
 }
 
 .links h3 {
-  font-size: 130%;
-  background-color: white;
+  font-size: 140%;
   color: #190933;
   margin-bottom: 8px;
   margin-left: 4px;
   margin-right: 4px;
   font-weight: 300;
   outline: 1px solid #190933;
-  /* 300 font weight and 1px outline looks better but not as easy to read */
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  transition: 0.4s all;
+  transition: 0.3s all;
 }
 
 .links h3:hover {
@@ -58,10 +55,10 @@ header {
 }
 
 .links a {
-  padding-top: 1.4vh;
-  padding-bottom: 1.4vh;
+  padding-top: 2.4vh;
+  padding-bottom: 2.4vh;
   display: block;
-  transition: all 0.4s;
+  transition: all 0.3s;
   color: #190933;
   text-decoration: none;
 }
