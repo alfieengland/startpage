@@ -26,26 +26,54 @@
           <h3 class="facebook"><a href="https://www.facebook.com/">Facebook</a></h3>
           <h3 class="plex"><a href="https://app.plex.tv/web/app">Plex</a></h3>
           <h3 class="youtube"><a href="https://www.youtube.com/">YouTube</a></h3>
-          <h3 class="netflix"><a href="https://www.netflix.com/">Netflix</a></h3>
           <!--<h3><a href="https://nitropanel.com/manage/17812861">NitroPanel</a></h3>-->
         </div>
         <div class="col">
           <h3><a href="https://www.amazon.co.uk/">Amazon</a></h3>
           <h3><a href="http://www.ebay.co.uk/">eBay</a></h3>
-          <h3><a href="https://www.gumtree.com/">Gumtree</a></h3>
-          <h3><a href="https://pirate-proxy.dev/">The Pirate Bay</a></h3>
-          <h3><a href="https://unblocktorrent.com/">Torrent Sites</a></h3>
+          <h3><a href="https://1337x.to/home/">1337x</a></h3>
+          <h3><a href="https://tpb.one/">The Pirate Bay</a></h3>
           <!--<h3><a href="https://www.reddit.com/r/greenday/">/r/Greenday</a></h3>-->
         </div>
         <div class="col">
-          <h3><a href="https://remotedesktop.google.com/access/">Chrome Remote Desktop</a></h3>
-          <h3><a href="http://192.168.178.44:8123/">Home Assistant</a></h3>
-          <h3><a href="https://github.com/alfieengland">GitHub</a></h3>
-          <h3><a href="https://drive.google.com/">Google Drive</a></h3>
-          <h3 class="twitch"><a href="https://www.twitch.tv/">Twitch</a></h3>
+          <h3 class="chrome-remote"><a href="https://remotedesktop.google.com/access/">Chrome Remote Desktop</a></h3>
+          <h3 class="github"><a href="https://github.com/alfieengland">GitHub</a></h3>
+          <h3 class="google-drive"><a href="https://drive.google.com/">Google Drive</a></h3>
+          <h3 class="netflix"><a href="https://www.netflix.com/">Netflix</a></h3>
           <!--<h3><a href="http://icy-e-bl-08-boh.sharp-stream.com/kerrang.mp3">Kerrang Radio</a></h3>-->
         </div>
       </div>
+      <div class="row server-button">
+        <div class="col">
+          <h3><button type="button" class="dropdown" name="dropdown">Server</button></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col server-heading hidden">
+          <h2>Server</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col hidden">
+          <h3><a href="http://192.168.178.43:8989/">Sonarr</a></h3>
+        </div>
+        <div class="col hidden">
+          <h3><a href="http://192.168.178.43:8181/">Tautulli</a></h3>
+        </div>
+        <div class="col hidden">
+          <h3><a href="http://192.168.178.44:8123/">Home Assistant</a></h3>
+        </div>
+      </div>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $(".hidden").hide();
+        });
+        $(".dropdown").click(function() {
+          // assumes element with id='button'
+          $(".hidden").show();
+          $(".server-button").hide();
+        });
+      </script>
     </div>
   </body>
 </html>
